@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+
+.section {
+
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background: var(--pastel-c);
+
+
+}
+
+section .main-sec {
+
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+
+section .main-sec .border {
+    opacity: 0.5;
+    border: var(--b-d) solid rgb(207, 207, 207);
+    width: 27.2%;
+}
+
+
+
+ section .main-sec, aside .aside-sec .graph .head-graph h2 {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+
+.section .aside-sec {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background: #c6e4d9;
+    flex-direction: column;
+
+}
+
+
+/*  ASIDE GRAPH  */
+
+.section .frame-graph {
+    
+    width: 200px;
+    height: 380px;
+    position: relative;
+    top: 20%;
+    left: 22%;
+    background: var(--w-d);
+    box-shadow: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+
+.section .graph-container {
+   
+    width: 200px;
+    padding: 30px 0;
+    height: 380px;
+    border: solid rgb(226, 150, 122) 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 20%;
+    left: 22%;
+    z-index: 1;
+}
+.section .aside-sec .graph-container h2 {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    /* text-align: center; */
+}
+
+
+.section .aside-sec .graph-container p {
+    font-size: 12.3px;
+    font-weight: 700;
+    font-family: 'JetBrains Mono', monospace;
+ }
+
+
+
+ .section .aside-sec .graph-container .graph-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+ }
+ 
+.section .aside-sec .graph-container .graph-body img {
+
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+   
+
+}
