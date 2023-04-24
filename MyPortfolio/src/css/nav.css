@@ -49,11 +49,6 @@
     color: var(--w-d);
 }
 
-.nav-in .nav-list:nth-child(2) {
-
-
-}
-
 
 .nav-in ul li a .ic {
 
@@ -67,10 +62,38 @@
 .nav-in ul li:hover a .ic {
     transition: 0.3s;
     transform: translateY(-5.2px);
+   
 }
+
+    
 
 .nav-in ul li:hover:nth-child(3) a .ic #star
  {
     transition: 1s;
+    transform: rotate(360deg);
+    color: var(--l-d);
+
+ }
+
+
+
+ .nav-in ul li:hover:nth-child(3) a span
+ {
+    transition: 1s;
     color: var(--l-d);
  }
+
+
+/* TEXT NAV UL*/
+
+.nav-in ul li:hover a .t-style {
+ 
+    transition: 1.4s;
+    transform: translateY(-2px);
+    color: var(--l-d);
+
+}
+
+
+
+
